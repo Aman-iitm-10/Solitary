@@ -24,9 +24,9 @@ export default function FeaturedEventsFullPage(props){
                     <div style={{width: "100%"}}>
                         <img src={eventImage} height={300} width={350} style={{margin:"auto"}} />
                     </div>
-                    <div className="RegisterContainer">
+                    <div className="RegisterContainer mt-4">
                         <form className="mp-2 p-5">
-                            <div className="playwrite-de-grund-Register-label p-2">
+                            <div className="p-2">
                                 Register Here
                             </div>
                             <div className="form-group p-2">
@@ -65,7 +65,7 @@ export default function FeaturedEventsFullPage(props){
                                 </div>
                                     
                             </div>
-                            <div className="col-1" >
+                            <div className="col-1 mt-3" >
                                 <div className='flex' style={{textAlign:'right', alignItems: "flex-end"}}>
 
                                 <button onClick={handleClick} style={{ background: 'none', border: 'none', cursor:'pointer' }}>
