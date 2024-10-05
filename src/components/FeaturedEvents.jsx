@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeaturedEvents = () => {
+const FeaturedEvents = (props) => {
   return (
     <div className="relative w-[60rem] h-[15rem] mt-3 expandevents">
       <div className="absolute inset-0 rounded-[10px] shadow-lg border border-[#cecece] backdrop-blur-[20px] p-3">
@@ -16,31 +16,23 @@ const FeaturedEvents = () => {
               🌟 Join us for an "Exclusive Workshop," hosted by Code Crafters, IITM BS Degree Coding Club! 🌟
             </h2>
             {/*<div className="mt-2 text-sm text-[#a2a2a2] font-medium">50 Reviews</div>*/}
-            <div className="flex mt-2 text-white font-montserrat text-[13px]">
-              <div className="font-bold text-[13px] space-y-2">
-                <p>Date:</p>
-                <p>Time:</p>
-                <p>Location:</p>
-                <p>Guest Speaker:</p>
-              </div>
-              <div className="ml-6 space-y-2">
-                <p>9th June, 2024</p>
-                <p>Sunday 9:00 PM IST</p>
-                <p>Zoom</p>
-                <p>Prof Hamza Farooq</p>
+            <div className="flex mt-2 text-white font-montserrat text-[16px]">
+              <div className=" text-[16px] space-y-1">
+                <pre><strong>Date:</strong> {props.date}</pre>
+                <pre><strong>Time:</strong> {props.time}</pre>
+                <pre><strong>Location:</strong> {props.location}</pre>
+                <pre><strong>Guest Speaker:</strong> {props.guest}</pre>
               </div>
             </div>
             {/* Registered Users Section */}
-            <div className="flex items-center mt-2">
+            <div className="flex items-center mt-1">
               <div className="bg-violet-700 rounded-full w-12 h-[15px] flex justify-center items-center">
                 <span className="text-white text-m font-semibold">151+</span>
               </div>
-              <div className="ml-4 text-white/80 text-m font-bold">Already Registered</div>
+              <div className="ml-4 text-white/80 text-[20px] font-bold">Already Registered</div>
             </div>
           </div>
         </div>
-
-        
 
         {/* Call to Action Button */}
         <div className="absolute right-4 top-40">
