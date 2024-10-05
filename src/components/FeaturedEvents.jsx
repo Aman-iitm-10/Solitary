@@ -50,6 +50,16 @@ const FeaturedEvents = (props) => {
         {/* Speaker Information */}
         <div className="mt-6 text-white text-[10px] font-bold leading-[15px]">
           Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          
           <br />Founder of Traversal.ai | Adjunct Professor at UCLA | Senior Research Manager at Google | Lecturer at Stanford University | Instructor at Maven | Senior Manager at Walmart Labs
         </div>
       </div>
