@@ -66,12 +66,7 @@ const Events = () => {
               We are thrilled to announce our AI-ML series at CodeCrafters, starting with our first session featuring a special speaker event. Join Prof Hamza Farooq for a discussion on The Future of Generative AI and Hyper Personalization, exploring the next frontier in AI and how it will redefine digital experiences." information=" He  is known for his extensive experience in the tech industry and academia. His work spans various roles, such as" date="23.09.1990" time="23:00" location="Chennai" guest="Shaurya"/>  */}
               
              
-              We are thrilled to announce our AI-ML series at CodeCrafters, starting with our first session 
-              featuring a special speaker event. Join Prof Hamza Farooq for a discussion on The Future of 
-              Generative AI and Hyper Personalization, exploring the next frontier in AI and how it will redefine d
-              igital experiences." information=" He  is known for his extensive experience in the tech industry and
-               academia. His work spans various roles, such as" date="23.09.1990" time="23:00" location="Taramani, 
-               Chennai" guest="Shaurya"/>
+  
              {/*<RegConfirmation/>
 
              <FeaturedEvents/>
