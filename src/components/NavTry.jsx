@@ -9,11 +9,11 @@ import xLogo from"../assets/X.png"
 
 export default function NavTry(){
     return (
-        <nav className="w-80 bg-[#180037] p-5 flex flex-col justify-between h-full sidebar">
+        <nav className="bg-[#180037] p-5 flex flex-col h-full sidebar">
             <div className="logo text-center">
                 <h1 className="text-2xl font-bold">SOLITARY</h1>
             </div>
-            <ul className="mt-10 space-y-5 nav-list">
+            <ul className="space-y-5 nav-list">
                 <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Home</a></li>
                 <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Events</a></li>
                 <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">About Us</a></li>
@@ -21,7 +21,7 @@ export default function NavTry(){
                 <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Houses</a></li>
                 <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Resources</a></li>
             </ul>
-            <div className="border-t-2 border-white my-10"></div>
+            <div className="border-t-2 border-white mt-1"></div>
             <div className="footer text-left">
                 <p className="text-sm text-gray-500 leading-5 mb-5">Solitary Inc.<br />About Us<br />All Rights Reserved<br />2024</p>
                 <div className="flex space-x-2">

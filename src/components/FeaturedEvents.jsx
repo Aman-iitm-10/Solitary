@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturedEvents = () => {
   return (
-    <div className="relative w-[994px] h-[340px] expandevents">
+    <div className="relative w-[994px] h-[340px] expandevents mt-5">
       <div className="absolute inset-0 rounded-[10px] shadow-lg border border-[#cecece] backdrop-blur-[20px] p-4">
         {/* Top section: Event Image & Title */}
         <div className="flex">
@@ -58,6 +58,16 @@ const FeaturedEvents = () => {
         {/* Speaker Information */}
         <div className="mt-6 text-white text-[10px] font-bold leading-[15px]">
           Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
+          
           <br />Founder of Traversal.ai | Adjunct Professor at UCLA | Senior Research Manager at Google | Lecturer at Stanford University | Instructor at Maven | Senior Manager at Walmart Labs
         </div>
       </div>
