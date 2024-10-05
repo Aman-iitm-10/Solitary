@@ -65,9 +65,11 @@ color:#F0FFFF;
   color: #F0FFFF;
 }
 .congrats{
-  font-family:'Courier New', Courier, monospace;
-  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
   font-style: bold;
+  font-weight: 545;
+  letter-spacing: 0.09rem;
   color:rgb(240, 236, 236);
 }
 .Regimage{
@@ -84,4 +86,9 @@ color:#F0FFFF;
   overflow: hidden;
   transition: 1.5s;
   transition: height 0.5s;
+}
+
+.regConfMessage{
+  letter-spacing: 0.08rem;
+  font-family:'Courier New';
 }
