@@ -1,0 +1,177 @@
+.main-content {
+    background-image: url('../assets/BcgReg.png'); /* Change this to your background image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 50px; /* Leave space around the content */
+    height: calc(100vh - 50px); /* Adjust height to leave space for padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white; /* Text color */
+}
+
+@keyframes fadeInFromBottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeInFromBottom {
+    animation: fadeInFromBottom 1s ease-out forwards;
+  }
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+.avatar {
+    animation: slideInLeft 1s forwards;
+}
+
+.google-login-button {
+    animation: slideInBottom 1s forwards;
+}
+
+.sidebar {
+    animation: slideInLeft 1s forwards;
+}
+
+.nav-list li {
+    animation: fadeOut 1s forwards;
+    animation-delay: 2s; 
+    animation-fill-mode: forwards;
+}
+
+
+.nav-list li:hover {
+    opacity: 1;
+}
+/* Define keyframes for animations */
+@keyframes slideInLeftFade {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/* Define keyframes for fading in */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start invisible */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+/* Define keyframes for sliding in */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%); /* Start off-screen */
+        opacity: 0; /* Start invisible */
+    }
+    to {
+        transform: translateX(0); /* End in position */
+        opacity: 1; /* End fully visible */
+    }
+}
+
+/* Apply the animations to the respective classes */
+.sidebar {
+    animation: slideInLeft 1s forwards; /* Sidebar slide in from left */
+}
+
+.nav-list li {
+    animation: fadeIn 1s forwards; /* Fade in effect */
+    opacity: 0; /* Start invisible */
+    animation-fill-mode: forwards; /* Keep the final state */
+}
+
+/* Apply staggered animations */
+.nav-list li:nth-child(1) {
+    animation-delay: 0.3s; /* First item fades in after 1 second */
+}
+
+.nav-list li:nth-child(2) {
+    animation-delay: 0.4s; /* Second item fades in after 1.2 seconds */
+}
+
+.nav-list li:nth-child(3) {
+    animation-delay: 0.6s; /* Third item fades in after 1.4 seconds */
+}
+
+.nav-list li:nth-child(4) {
+    animation-delay: 0.7s; /* Fourth item fades in after 1.6 seconds */
+}
+
+.nav-list li:nth-child(5) {
+    animation-delay: 0.8s; /* Fifth item fades in after 1.8 seconds */
+}
+
+.nav-list li:nth-child(6) {
+    animation-delay: 0.9s; /* Sixth item fades in after 2 seconds */
+}
+
+/* Apply the animations to the respective classes */
+/* .sidebar {
+    animation: slideInLeftFade 1s forwards; /* Sidebar slide in from left with fade */
+ /* */
+
+/* .nav-list li {
+    animation: fadeIn 1s backwards; /* Fade out effect */
+    /* animation-delay: 2s; Start fading out after 2 seconds */
+    /* opacity: 1; Initial opacity */
+    /* animation-fill-mode: backwards; */
+
+
+/* Ensure items remain visible until fade out */
+.nav-list li:hover {
+    opacity: 1; /* Ensure hovered items remain visible */
+}

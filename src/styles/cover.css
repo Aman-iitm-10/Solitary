@@ -1,0 +1,70 @@
+/* body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2.3px;
+    height: 2.4px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: star-animation 50s linear infinite;
+}
+
+@keyframes star-animation {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.text-container h1, .text-container h2 {
+    background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.info-box1, .info-box2, .info-box3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.character {
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+} */

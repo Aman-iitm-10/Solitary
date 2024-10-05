@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitary Maximizing Students Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background: linear-gradient(115deg, #270235, #420046, #4C004A, #89009A, #2E054C, #290346, #140430); */
+            /* background-image:url(Desktop\ -\ 23.png); */
+            
+            /* color: #fff; */
+            /* overflow-x: hidden; */
+            body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url(Desktop\ -\ 23.png); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Starfield Background */
+        .starfield {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .star {
+            position: absolute;
+            width: 2.3px;
+            height: 2.4px;
+            background: white;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation: star-animation 50s linear infinite;
+        }
+
+        @keyframes star-animation {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(100vh);
+            }
+        }
+
+
+        .container {
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .logo {
+            width: 110px;
+            height: 68px;
+            margin-bottom: 30px;
+            
+            margin-right:3vw;
+        
+           
+        }
+
+        h1 {
+            /* color: #EDDCEC; */
+            font-size: 4.5rem;
+            font-weight: 500vw;
+            margin-top: 2vh;
+            letter-spacing: 2px;
+            margin-bottom: 0.3vh;
+            line-height: 1.1;
+            font-family: Montserrat;
+            font-size: 100px;
+            font-weight: 700;
+            line-height: 109.71px;
+            text-align: center;
+
+            background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+    
+            
+
+        }
+
+        h2 {
+            margin-top: 9vh;
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+            max-width: 800px;
+            line-height: 1.6;
+            font-family: Montserrat;
+            background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+
+
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 23px;
+            text-align: center;
+            /* margin-bottom: 40px; */
+        }
+
+        .nav a, .nav button {
+            padding: 10px 25px;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav a:hover, .nav button:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        /* .info-section {
+            margin-bottom:1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: -1px;
+             width: 100%;
+            padding: 10px;
+        }
+
+        .info-box1 {
+            
+
+            top:-23px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px 30px 21px 30px;
+            font-size: 3vh;
+            margin-left: 100px;
+        
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.6s ease;
+            margin-bottom: 4vh;
+            font-weight: 300;
+            cursor: pointer;
+
+        }
+        .info-box2 {
+            background-color: rgba(255, 255, 255, 0.1);
+            font-size: 3vh;
+
+            padding: 40px;
+            margin-left: 10px;
+
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.6s ease;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        .info-box3 {
+            
+            background-color: rgba(255, 255, 255, 0.1);
+            margin-right: 13px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.6s ease;
+          
+
+            cursor: pointer;
+        } */
+        .info-section {
+        margin-bottom: 0; /* Reduce the bottom margin */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px; /* Make sure there’s no negative gap */
+        width: 100%;
+        padding: 10px 0; /* Reduce top and bottom padding to make section more compact */
+    }
+
+.info-box1 {
+    top: -23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px 30px; /* Reduce padding */
+    font-size: 2.7vh; /* Adjust font size for better layout */
+    margin-left: 15vh; /* Reduce margin to bring it closer */
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    margin-bottom: 2vh; /* Reduce bottom margin */
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.info-box2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 2.5vh;
+    padding: 30px; 
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.info-box3 {
+    /* height: 10vh; */
+    margin-top: 45vh;
+    width: 35vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 23px;
+    padding: 25px 26PX; /* Reduce padding */
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+}
+
+
+        .info-box1:hover {
+            transform: translateY(-20px);
+        }
+
+        .info-box1 h3 {
+            font-size: 2.5rem;
+        }
+
+        .info-box1 p {
+            font-size: 1.2rem;
+        }
+        .info-box2:hover {
+            transform: translateY(-20px);
+        }
+
+        .info-box2 h3 {
+            font-size: 2.5rem;
+        }
+
+        .info-box2 p {
+            font-size: 1.2rem;
+        }
+        .info-box3:hover {
+            transform: translateY(-20px);
+            
+            /* transform: rotateX(30deg); */
+        }
+
+        .info-box3 h3 {
+            font-size: 2.5rem;
+        }
+
+        .info-box3 p {
+            font-size: 1.2rem;
+        }
+        
+        .character {
+            width: 805px;
+            height: 700px;
+            top: 406px;
+            left: 291px;
+            gap: 0px;
+            opacity: 0px;
+            margin-bottom: 178px;
+
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+            /* position: relative; */
+            top: -50px; 
+        }
+
+        .footer {
+            margin-top: 90px;
+            color:white;
+            /* background-color: rgba(255, 255, 255, 0.696); */ 
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-align: center;
+            font-size: 1.2rem;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .arg{
+            text-decoration: none;
+            color: white;
+            font-family: Montserrat;
+
+            font-size: 23px;
+            top:50%;
+            left:50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 2px;
+            font-weight: 400;
+
+        }
+        .arg:hover{
+            color:aqua;
+            transition: 0.3s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="starfield" id="starfield"></div>
+
+    <div class="container">
+        
+        <div class="nav">
+            <!-- <div class="logo"></div> -->
+            <img src="Solitary(2) 1.png" alt="Solitary Logo" class="logo">
+            <div class="options">
+                <a href="#">Events</a>
+                <a href="#">About Us</a>
+                <a href="#">Society and Clubs</a>
+                <a href="#">Houses</a>
+                <a href="#">Resources</a>
+                <button>Register Now</button>
+            </div>
+           
+        </div>
+        
+        <h1>Solitary Maximizing</h1>
+        <h1>Students Experience</h1>
+        <h2>At Solitary, we aim to enhance your experience by optimizing your performance through collaboration and community growth.</h2>
+        
+       
+        <div class="info-section">
+            
+            <div>
+                <div class="info-box1">
+                    <h3>20+</h3>
+                    <p>Collaborations with Clubs and Societies</p>
+                </div>
+                <div class="info-box2">
+                    <h3>500+</h3>
+                    <p>Community Base</p>
+                </div>
+            </div>
+
+            <!-- img -->
+            <img src="Component 3.png" alt="Character" class="character">
+
+            
+            <div class="info-box3">
+                <p>This website is designed for community service of IITM BS</p>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="arg">Skip to the main content</a>
+    <div class="footer">
+        <p>&copy;2023 Solitary - All Rights Reserved</p>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+    
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+                
+                const starfield = document.getElementById('starfield');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.classList.add('star');
+            star.style.left = `${Math.random() * 100}vw`;
+            star.style.top = `${Math.random() * 100}vh`;
+            star.style.animationDuration = `${Math.random() * 10 + 10}s`;
+            starfield.appendChild(star);
+        }
+
+        
+        let scrollSpeedFactor = 1;
+
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+
+            
+            scrollSpeedFactor = 1 + scrollY / 2000; 
+
+            document.querySelectorAll('.star').forEach(star => {
+                
+                star.style.animationDuration = `${(Math.random() * 10 + 20) / scrollSpeedFactor}s`;
+            });
+        });
+
+        // Smooth Scroll Triggered Animations
+        gsap.from("h1", {
+            opacity: 0,
+            x: -100,
+            duration: 1,
+            // scrollTrigger: {
+            //     trigger: "h1",
+            //     start: "top 80%",
+            //     end: "bottom 20%",
+            //     scrub: true
+            // }
+        });
+        gsap.from("h2", {
+            opacity: 0,
+            x: 200,
+            duration: 1.5,
+            // scrollTrigger: {
+            //     trigger: "h1",
+            //     start: "top 80%",
+            //     end: "bottom 20%",
+            //     scrub: true
+            // }
+        });
+        gsap.from(".options", {
+            opacity: 0,
+            y:-80,
+            duration: 1.5,
+            stagger: 0.2, 
+            ease: "power2.out" 
+            // scrollTrigger: {
+            //     trigger: "h1",
+            //     start: "top 80%",
+            //     end: "bottom 20%",
+            //     scrub: true
+            // }
+        });
+
+            // Color Change on Scroll for Background
+    // gsap.to("body", {
+    //     background: "linear-gradient(115deg, #1A1A3C, #512B58, #800080)", // New colors
+    //     duration: 2,
+    //     scrollTrigger: {
+    //         trigger: ".info-item2",
+    //         start: "top 50%",
+    //         end: "bottom 10%",
+    //         scrub: true
+    //     }
+    // });
+        gsap.from(".info-box1", {
+            opacity: 0,
+            y: 200,
+            stagger: 0.3,
+            duration: 1,
+            scrollTrigger: {
+                trigger: ".info-section",
+                start: "top 90%",
+                end: "bottom 30%",
+                scrub: true
+            }
+        });
+
+        gsap.from(".info-box2", {
+            opacity: 0,
+            y: 200,
+            stagger: 0.3,
+            duration: 1,
+            scrollTrigger: {
+                trigger: ".info-section",
+                start: "top 90%",
+                end: "bottom 30%",
+                scrub: true
+            }
+        });
+        gsap.from(".info-box3", {
+            opacity: 0,
+            y: 200,
+            stagger: 0.3,
+            duration: 1,
+            scrollTrigger: {
+                trigger: ".info-section",
+                start: "top 90%",
+                end: "bottom 30%",
+                scrub: true
+            }
+        });
+
+
+        // Floating Image Parallax Effect
+        gsap.from(".character", {
+            y: 100,
+            duration: 1.5,
+            ease: "power1.out",
+            scrollTrigger: {
+                trigger: ".character",
+                start: "top 85%",
+                end: "bottom 40%",
+                scrub: true
+            }
+        });
+
+        gsap.from(".footer", {
+            opacity: 0.09,
+            y: 90,
+            duration: 3,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: ".footer",
+                start: "top 90%",
+                end: "bottom 20%",
+                scrub: true
+            }
+        });
+        gsap.to(".character", {
+            y: "-=40", 
+            repeat: -1,
+            yoyo: true, 
+            ease: "power1.inOut",
+            duration: 1.6 
+        });
+
+    </script>
+</body>
+</html>

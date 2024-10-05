@@ -1,0 +1,87 @@
+.expand{
+  height: fit-content;
+}
+.RegisterContainer{
+  margin-top:2%;
+  border-style: solid;
+  border: grey 2px;
+  border-radius: 24px;
+  border-color:azure;
+  background-color: #250E46;
+  box-shadow: rgba(182, 182, 209, 0.25) 0px 50px 100px -20px, rgba(155, 155, 155, 0.3) 0px 30px 60px -30px, rgba(216, 236, 255, 0.35) 0px -2px 6px 0px inset;;
+}
+
+.label{
+  font-family: Georgia;
+  font-style: normal;
+  font-size: 20px;
+  color:#F0FFFF;
+  padding-bottom: 6px;
+  font-stretch: normal;
+}
+
+.register-button{
+  border-color: rgb(166, 103, 220);
+  color:rgb(182, 109, 249);
+}
+.register-button:hover{
+  background-color: rgb(166, 103, 220);
+}
+
+.loopinfoStyle{
+  font-family: Georgia;    
+  color: rgb(208, 208, 208);
+  padding-left: 25px;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+}
+
+.loopinfo ul li{list-style-type: disc;}
+.loopinfo ul li::marker{color:rgb(165, 13, 176) ;}
+
+.details{
+font-family: Georgia;
+font-style: normal;
+font-size: 18px;
+color:#F0FFFF;
+}
+.info{
+  font-family: Georgia;
+  font-style: normal;
+  font-size: 19px;
+  color:#F0FFFF;
+}
+
+.title{
+  font-family: Georgia;
+  font-size: 28px;
+  color: rgb(236, 255, 255);
+  letter-spacing: 0.06em;
+  font-style: oblique;
+}
+.description{
+  font-family: Georgia;
+  font-size: medium;
+  color: #F0FFFF;
+}
+.congrats{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 35px;
+  font-style: bold;
+  color:rgb(240, 236, 236);
+}
+.Regimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expandevents:hover{
+  height: 450px;
+}
+
+.expandevents{
+  overflow: hidden;
+  transition: 1.5s;
+  transition: height 0.5s;
+}

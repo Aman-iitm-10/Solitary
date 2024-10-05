@@ -1,0 +1,424 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('xassets/Desktop -23.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* All the other styles can remain the same as in your original HTML */
+  .starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2.3px;
+    height: 2.4px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: star-animation 50s linear infinite;
+}
+
+@keyframes star-animation {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+
+.container {
+    padding: 2vw;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* min-height: 90vh; */
+    /*text-align: center;*/
+}
+
+.logo {
+    width: 110px;
+    height: 68px;
+    margin-bottom: 30px;
+    
+    margin-right:3vw;
+
+   
+}
+
+.tagh1>h1 {
+    /* color: #EDDCEC; */
+    /* font-size: 2.5rem; */
+    /* font-weight: 400vw; */
+    margin-top: 12vh;
+    letter-spacing: 1px;
+    margin-bottom: 0.3vh;
+    line-height: 1;
+    /* margin-top: 83px; */
+    font-family: Montserrat;
+    font-size: 89px;
+    font-weight: 700;
+    /* line-height: 102.71px; */
+    text-align: center;
+
+    background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    
+
+}
+
+.tagh1>h2 {
+    margin-top: 9vh;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    max-width: 800px;
+    line-height: 1.6;
+    font-family: Montserrat;
+    background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 23px;
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+
+.nav a, .nav button {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover, .nav button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* .info-section {
+    margin-bottom:1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: -1px;
+     width: 100%;
+    padding: 10px;
+}
+
+.info-box1 {
+    
+
+    top:-23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px 21px 30px;
+    font-size: 3vh;
+    margin-left: 100px;
+
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    margin-bottom: 4vh;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.info-box2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 3vh;
+
+    padding: 40px;
+    margin-left: 10px;
+
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+    font-weight: 300;
+    cursor: pointer;
+}
+.info-box3 {
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 13px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s ease;
+  
+
+    cursor: pointer;
+} */
+.info-section {
+margin-bottom: 0; /* Reduce the bottom margin */
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px; /* Make sure there’s no negative gap */
+width: 100%;
+padding: 9px 0; /* Reduce top and bottom padding to make section more compact */
+}
+
+.info-box1 {
+/* top: -23px; */
+background-color: rgba(255, 255, 255, 0.1);
+padding: 15px 30px; /* Reduce padding */
+font-size: 2.7vh; /* Adjust font size for better layout */
+/* margin-left: -1.5vh;  */
+border-radius: 20px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.6s ease;
+margin-bottom: 2vh;
+font-weight: 300;
+cursor: pointer;
+}
+
+.info-box2 {
+background-color: rgba(255, 255, 255, 0.1);
+font-size: 2.5vh;
+padding: 30px; 
+/* margin-left: -1.5px; */
+border-radius: 20px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.6s ease;
+font-weight: 300;
+cursor: pointer;
+}
+/* height: 10vh; */
+
+.info-box3 {
+/* margin-top: 45vh; */
+/* width: 35vh; */
+background-color: rgba(255, 255, 255, 0.1);
+/* margin-right: 53px; */
+padding: 25px 26px;
+border-radius: 20px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.6s ease;
+cursor: pointer;
+}
+
+
+/* .info-box1:hover {
+    transform: translateY(-20px);
+} */
+
+.info-box1 h3 {
+    font-size: 2.5rem;
+}
+
+.info-box1 p {
+    font-size: 1.2rem;
+}
+.info-box2:hover {
+    transform: translateY(-20px);
+}
+
+.info-box2 h3 {
+    font-size: 2.5rem;
+}
+
+.info-box2 p {
+    font-size: 1.2rem;
+}
+.info-box3:hover {
+    transform: translateY(-20px);
+    
+    /* transform: rotateX(30deg); */
+}
+
+.info-box3 h3 {
+    font-size: 2.5rem;
+}
+
+.info-box3 p {
+    font-size: 1.2rem;
+}
+
+.character {
+    width: 805px;
+    height: 500px;
+    /* top: 496px;
+    left: 91px; */
+    /* gap: 0px;
+    opacity: 0px;
+    margin-bottom: 178px; */
+    margin-bottom: 78px;
+
+
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+    /* position: relative; */
+    top: -50px; 
+}
+
+.footer {
+    margin-top: 90px;
+    color:white;
+    /* background-color: rgba(255, 255, 255, 0.696); */ 
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.arg{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+
+    font-size: 23px;
+    top:50%;
+    left:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+.arg:hover{
+    color:aqua;
+    transition: 0.3s;
+
+}  
+
+/* Responsive Design for Cover Component */
+.relative {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 800px; /* Limit max height for larger screens */
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-6 {
+    gap: 1.5rem; /* 24px */
+}
+
+@media (min-width: 640px) {
+    .gap-10 {
+        gap: 2.5rem; /* 40px */
+    }
+
+    /* .top-[30%] {
+        top: 30%;
+    } */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins font is loaded */
+}
+
+.font-extrabold {
+    font-weight: 800; /* Adjust font weight for emphasis */
+}
+
+.font-normal {
+    font-weight: 400; /* Normal font weight */
+}
+
+@media (min-width: 640px) {
+    /* .text-[1.5rem] {
+        font-size: 1.5rem; /* Base font size for mobile */
+    
+    .text-3xl {
+        font-size: 1.875rem; /* Adjust size for smaller devices */
+    }
+}
+
+@media (min-width: 768px) {
+    .text-4xl {
+        font-size: 2.25rem; /* Adjust size for tablet devices */
+    }
+
+    .text-lg {
+        font-size: 1.125rem; /* Larger font for tablet devices */
+    }
+}
+
+@media (min-width: 1024px) {
+    .text-5xl {
+        font-size: 3rem; /* Adjust size for larger screens */
+    }
+
+    .text-xl {
+        font-size: 1.25rem; /* Larger font for larger screens */
+    }
+}
+
+@media (min-width: 1280px) {
+    .text-6xl {
+        font-size: 4rem; /* Adjust size for extra-large screens */
+    }
+
+    /* .text-[1.5rem] {
+        font-size: 1.5rem; /* Maintain size on extra-large screens */
+     
+}
