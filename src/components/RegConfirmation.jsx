@@ -3,7 +3,7 @@ import "./FeaturedEvents.css"
 import React from "react"
 
 
-export default function RegConfirmation(){
+export default function RegConfirmation(props){
     return(
         <div className="container" style={{height:"100%"}}>
             <div className="row">
@@ -20,14 +20,17 @@ export default function RegConfirmation(){
                 <p> You are registered for the event. </p>
             </div>
             <div className="row mt-3" style={{textAlign:"center"}}>
-                <p className="description"> To stay updated, we will send you timely emails and WhatsApp messages so that you don't miss any opportunities.
-                </p>
+                <pre className="text-wrap regConfMessage"> Stay updated via emails and WhatsApp messages. Make use of the opportunities. </pre>
+            </div>
+            <div className="mt-3">
+                <pre className="regConfMessage text-[18px]" style={{textAlign:"center"}}>For futher details: {props.contact}</pre>
             </div>
             <div className="row" style={{textAlign:"center"}}> 
                 <div>
-                    <button className="btn btn-primary mt-5">Join meet</button>
+                    <button className="btn btn-primary mt-4">Join meet</button>
                 </div>  
             </div>
+            
         </div>
     )
 

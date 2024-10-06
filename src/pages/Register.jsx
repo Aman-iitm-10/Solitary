@@ -10,10 +10,24 @@ import NavTry from '../components/NavTry'
 import SearchBar from '../components/SearchBar'
 // import Avatar from"../assets/Avater.png"
 import './style_register.css'; 
+import BackgroundImage from "../assets/Solitary(3) 1.png"; // Replace with your image path
+
 
 const RegisterPage = () => {
     return (
-        <div className="flex h-screen bg-[#2c1055] text-white">
+
+        
+
+
+        <div className="flex h-screen bg-[#2c1055] text-white"
+        style={{ 
+            backgroundImage: `url(${BackgroundImage})`,  // Background image
+            backgroundSize: 'cover',                     // Make the image cover the entire div
+            backgroundPosition: 'center'                 // Center the image
+        }}
+        
+        >
+
             {/* Sidebar */}
             {/* Sidebar */}
             <NavTry />

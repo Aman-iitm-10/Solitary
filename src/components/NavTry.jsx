@@ -14,12 +14,12 @@ export default function NavTry(){
                 <h1 className="text-2xl font-bold">SOLITARY</h1>
             </div>
             <ul className="space-y-5 nav-list">
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Home</a></li>
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Events</a></li>
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">About Us</a></li>
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Society and Clubs</a></li>
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Houses</a></li>
-                <li><a href="#" className="text-lg hover:bg-[#6600ff] py-2 px-2 rounded block">Resources</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">Home</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">Events</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">About Us</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">Society and Clubs</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">Houses</a></li>
+                <li><a href="#" className="text-lg hover:bg-[#6D28D9] py-2 px-2 rounded block">Resources</a></li>
             </ul>
             <div className="border-t-2 border-white mt-1"></div>
             <div className="footer text-left">
