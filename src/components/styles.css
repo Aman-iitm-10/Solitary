@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('xassets/Desktop -23.png');
+    background-image: url('assets/Desktop -23.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -101,6 +101,42 @@ body {
 
 
 }
+.tag2 {
+    display: flex;               
+    justify-content: center;       
+    align-items: center;           
+    height: 34vh;                 
+}
+
+.tag2 > h2 {
+    margin-top: 9vh;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    max-width: 800px;
+    line-height: 1.6;
+    font-family: Montserrat;
+    background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;           
+}
+
+/* .tag2>h2{
+    margin-top: 9vh;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 9vw;
+    margin-bottom: 40px;
+    max-width: 800px;
+    line-height: 1.6;
+    font-family: Montserrat;
+    background: radial-gradient(54.65% 68.93% at 49.95% 31.07%, #FFFFFF 0%, rgba(255, 255, 255, 0.76) 48.4%, #656363 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} */
 
 .nav {
     display: flex;
@@ -190,13 +226,13 @@ body {
     cursor: pointer;
 } */
 .info-section {
-margin-bottom: 0; /* Reduce the bottom margin */
+margin-bottom: 0;
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 10px; /* Make sure there’s no negative gap */
+gap: 10px; 
 width: 100%;
-padding: 9px 0; /* Reduce top and bottom padding to make section more compact */
+padding: 9px 0;
 }
 
 .info-box1 {
@@ -212,6 +248,7 @@ transition: transform 0.6s ease;
 margin-bottom: 2vh;
 font-weight: 300;
 cursor: pointer;
+margin-bottom: 8vh;
 }
 
 .info-box2 {
@@ -252,6 +289,9 @@ cursor: pointer;
 
 .info-box1 p {
     font-size: 1.2rem;
+}
+.info-box1:hover {
+    transform: translateY(-20px);
 }
 .info-box2:hover {
     transform: translateY(-20px);

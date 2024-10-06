@@ -224,7 +224,10 @@ const SolitaryMaximizing = () => {
     <div class="tagh1">
     <h1>Solitary Maximizing</h1>
         <h1>Students Experience</h1>
+        <div className="tag2">
         <h2>At Solitary, we aim to enhance your experience by optimizing your performance through collaboration and community growth.</h2>
+        </div>
+        
     </div>
 
         <div className="info-section">
