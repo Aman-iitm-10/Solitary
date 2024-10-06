@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Cards from './n.jsx';
 const FeaturedEvents = (props) => {
   return (
     <div className="relative w-[60rem] h-[15rem] mt-3 expandevents">
       <div className="absolute inset-0 rounded-[10px] shadow-lg border border-[#cecece] backdrop-blur-[20px] p-3">
         {/* Top section: Event Image & Title */}
+        
         <div className="flex">
           <img 
             className="w-[250px] h-[200px] object-cover rounded-md" 

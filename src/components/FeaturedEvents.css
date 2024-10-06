@@ -85,3 +85,9 @@ color:#F0FFFF;
   transition: 1.5s;
   transition: height 0.5s;
 }
+.h-slider > div{
+  margin-left: 5%;
+}
+.h-slider {
+  overflow-x: scroll;
+}
