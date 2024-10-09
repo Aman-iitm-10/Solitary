@@ -19,7 +19,7 @@ const RegisterPage = () => {
         
 
 
-        <div className="flex h-screen bg-[#2c1055] text-white"
+        <div className="flex h-full bg-[#2c1055] text-white"
         style={{ 
             backgroundImage: `url(${BackgroundImage})`,  // Background image
             backgroundSize: 'cover',                     // Make the image cover the entire div
@@ -39,9 +39,9 @@ const RegisterPage = () => {
                 <SearchBar />
                 
                 {/* Avatar and Login Section */}
-<div className="login-section text-center mt-10">
-    <img src={Avatar} alt="Avatar" className="w-40 h-40 rounded-full mx-auto mb-5 avatar" />
-    <button className="bg-[#5e1e9e] hover:bg-[#501E9E] text-white text-lg font-semibold px-6 py-3 rounded-full flex items-center justify-center mx-auto mb-5 google-login-button 
+<div className="login-section text-center mt-[5vh]">
+    <img src={Avatar} alt="Avatar" className="w-40 h-40 rounded-full mx-auto mb-10 avatar" />
+    <button className="bg-[#5e1e9e] hover:bg-[#501E9E] text-white text-lg font-semibold px-4 py-3 rounded-full flex items-center justify-center mx-auto mb-5 google-login-button 
         animate-fadeInFromBottom hover:shadow-[0_0_15px_5px_rgba(94,30,158,0.8)] transition-shadow duration-300">
         <img src={GoogleLogo} alt="Google Icon" className="w-6 h-6 mr-2" />
         Login

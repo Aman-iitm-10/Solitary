@@ -80,33 +80,33 @@ const FeaturedEvents = (props) => {
 
       
       <div className={`filter-section ${isFilterVisible ? 'slide-in' : 'slide-out'}`}>
-        <div className="filter-category p-4 text-white">
+        <div className="filter-category p-2 text-white">
           
           <div className="filter-item">
             <button onClick={() => toggleDropdown('house')} className="w-full text-left">
-              Search By House
+               House
             </button>
             {selectedFilter === 'house' && (
               <div className="dropdown-content mt-2 fade-in">
                 <div>
                   <input type="radio" id="all-houses" name="house" />
-                  <label htmlFor="all-houses" className="text-white">All Houses</label>
+                  <label htmlFor="all-houses" className="text-white ml-1">All Houses</label>
                 </div>
                 <div>
                   <input type="checkbox" id="house-gir" />
-                  <label htmlFor="house-gir" className="text-white">Gir</label>
+                  <label htmlFor="house-gir" className="text-white ml-1">Gir</label>
                 </div>
                 <div>
                   <input type="checkbox" id="house-wayanad" />
-                  <label htmlFor="house-wayanad" className="text-white">Wayanad</label>
+                  <label htmlFor="house-wayanad" className="text-white ml-1">Wayanad</label>
                 </div>
                 <div>
                   <input type="checkbox" id="house-pichavaram" />
-                  <label htmlFor="house-pichavaram" className="text-white">Pichavaram</label>
+                  <label htmlFor="house-pichavaram" className="text-white ml-1">Pichavaram</label>
                 </div>
                 <div>
                   <input type="checkbox" id="house-kahna" />
-                  <label htmlFor="house-kahna" className="text-white">Kahna</label>
+                  <label htmlFor="house-kahna" className="text-white ml-1">Kahna</label>
                 </div>
               </div>
             )}
@@ -115,29 +115,29 @@ const FeaturedEvents = (props) => {
           
           <div className="filter-item mt-4">
             <button onClick={() => toggleDropdown('clubs')} className="w-full text-left">
-              Search By Clubs
+               Clubs
             </button>
             {selectedFilter === 'clubs' && (
               <div className="dropdown-content mt-2 fade-in">
                 <div>
                   <input type="radio" id="all-clubs" name="club" />
-                  <label htmlFor="all-clubs" className="text-white">All Clubs</label>
+                  <label htmlFor="all-clubs" className="text-white ml-1">All Clubs</label>
                 </div>
                 <div>
                   <input type="checkbox" id="club-gir" />
-                  <label htmlFor="club-gir" className="text-white">Gir</label>
+                  <label htmlFor="club-gir" className="text-white ml-1">Gir</label>
                 </div>
                 <div>
                   <input type="checkbox" id="club-wayanad" />
-                  <label htmlFor="club-wayanad" className="text-white">Wayanad</label>
+                  <label htmlFor="club-wayanad" className="text-white ml-1">Wayanad</label>
                 </div>
                 <div>
                   <input type="checkbox" id="club-pichavaram" />
-                  <label htmlFor="club-pichavaram" className="text-white">Pichavaram</label>
+                  <label htmlFor="club-pichavaram" className="text-white ml-1">Pichavaram</label>
                 </div>
                 <div>
                   <input type="checkbox" id="club-kahna" />
-                  <label htmlFor="club-kahna" className="text-white">Kahna</label>
+                  <label htmlFor="club-kahna" className="text-white ml-1">Kahna</label>
                 </div>
               </div>
             )}
@@ -146,29 +146,29 @@ const FeaturedEvents = (props) => {
          
           <div className="filter-item mt-4">
             <button onClick={() => toggleDropdown('domain')} className="w-full text-left">
-              Search By Domain
+               Domain
             </button>
             {selectedFilter === 'domain' && (
               <div className="dropdown-content mt-2 fade-in">
                 <div>
                   <input type="radio" id="all-domains" name="domain" />
-                  <label htmlFor="all-domains" className="text-white">All Domains</label>
+                  <label htmlFor="all-domains" className="text-white ml-1">All Domains</label>
                 </div>
                 <div>
                   <input type="checkbox" id="domain-gir" />
-                  <label htmlFor="domain-gir" className="text-white">Gir</label>
+                  <label htmlFor="domain-gir" className="text-white ml-1">Gir</label>
                 </div>
                 <div>
                   <input type="checkbox" id="domain-wayanad" />
-                  <label htmlFor="domain-wayanad" className="text-white">Wayanad</label>
+                  <label htmlFor="domain-wayanad" className="text-white ml-1">Wayanad</label>
                 </div>
                 <div>
                   <input type="checkbox" id="domain-pichavaram" />
-                  <label htmlFor="domain-pichavaram" className="text-white">Pichavaram</label>
+                  <label htmlFor="domain-pichavaram" className="text-white ml-1">Pichavaram</label>
                 </div>
                 <div>
                   <input type="checkbox" id="domain-kahna" />
-                  <label htmlFor="domain-kahna" className="text-white">Kahna</label>
+                  <label htmlFor="domain-kahna" className="text-white ml-1">Kahna</label>
                 </div>
               </div>
             )}

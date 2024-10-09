@@ -23,7 +23,7 @@ const NavBar = () => {
             
                 <div className="flex justify-between items-center top-0">
                     <Link to={'/'}>
-                        <div className="flex items-center gap-5 m-2">
+                        <div className="flex  items-center gap-5 m-2">
                             <img
                                 src={Logo}
                                 alt=""
