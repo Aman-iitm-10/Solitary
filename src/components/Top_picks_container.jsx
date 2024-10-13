@@ -1,12 +1,14 @@
+import './FeaturedEvents.css';
+
 export default function Card(props){
   return (
-      <div className="card col-5">
+      <div className="top-picks-card col-5">
         <div style={{display:'flex'}}>
           <div className="col-4" style={{display : 'grid'}}>
             <img className='img-responsive center-block' src={props.img} alt="Image not found" height={'90%'} width={'90%'} style={{margin : 'auto auto'}}/>
           </div>
   
-          <div className="col-8">
+          <div className="col-8 top-picks-card-right">
             <div className="topic row">
               <div className='col-12 h4'>
                 {props.title}

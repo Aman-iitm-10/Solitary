@@ -1,5 +1,5 @@
 
-import Cards from './n.jsx';
+import Cards from './Top_picks.jsx';
 
 
 import React, { useState } from 'react';
@@ -31,7 +31,7 @@ const FeaturedEvents = (props) => {
           />
           <div className="ml-6">
             <h2 className="text-white text-xl font-bold font-montserrat">
-              🌟 Join us for an "Exclusive Workshop," hosted by Code Crafters, IITM BS Degree Coding Club! 🌟
+              {props.title}
             </h2>
             <div className="flex mt-2 text-white font-montserrat text-[16px]">
               <div className="text-[16px] space-y-1">
@@ -45,7 +45,8 @@ const FeaturedEvents = (props) => {
               <div className="bg-violet-700 rounded-full w-12 h-[15px] flex justify-center items-center">
                 <span className="text-white text-m font-semibold">151+</span>
               </div>
-              <div className="ml-4 text-white/80 text-[20px] font-bold">Already Registered</div>
+              {/* <div className="ml-4 text-white/80 text-[20px] font-bold">Already Registered</div> */}
+              <div className="ml-4 text-white/80 text-[20px] font-bold">{props.registrationLabelStatus}</div>
             </div>
           </div>
         </div>
@@ -59,15 +60,17 @@ const FeaturedEvents = (props) => {
 
         {/* Event Description */}
         <div className="mt-6 text-white text-[13px] font-bold font-montserrat leading-tight">
-          Dear learners,<br />
-          We are thrilled to announce our Ai-ML series at CodeCrafters, starting with our first session featuring a special speaker event. Join Prof Hamza Farooq for a discussion on "The Future of Generative AI and Hyper Personalization," exploring the next frontier in AI and how it will redefine digital experiences.
+          {props.description}
         </div>
 
         {/* Speaker Information */}
         <div className="mt-6 text-white text-[10px] font-bold leading-[15px]">
-          Prof Hamza Farooq is known for his extensive experience in tech and academia, spanning various roles:
-          <br />Founder of Traversal.ai | Adjunct Professor at UCLA | Senior Research Manager at Google | Lecturer at Stanford University | Instructor at Maven | Senior Manager at Walmart Labs
+          {props.information}
         </div>
+
+        {/*<div className='mt-6 text-white text-[10px] font-bold leading-[12px]"'>
+          {props.speakerDetails.map((elem) => <li>elem</li>)}
+        </div>*/}
       </div>
 
       {/* filter btn */}

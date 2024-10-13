@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/LandingPageNavBar.jsx';
 import Cover from '../components/Cover';
 import CardSlider from '../components/CardSlider';
 import Footer from '../components/Footer';

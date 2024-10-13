@@ -11,8 +11,8 @@ export default function FeaturedEventsFullPage(props){
   };
 
   var l = ["Founder of Traversal.ai", "Adjunct Professor at UCLA", "Senior Research Science Manager at Google", "Lecturer at Stanford University", "Instructor at Maven", "Senior Manager at Walmart Labs"]
-    
-    const jokeElements = l.map(joke => {
+    //var l = (props.speakerDetails);
+    const SpeakerListDetails = l.map(joke => {
         return <li>{joke}</li>
     })
 
@@ -109,7 +109,7 @@ export default function FeaturedEventsFullPage(props){
                                 {props.information}
                             </div>
                             <div className="loopinfoStyle loopinfo pt-2 ">
-                                <ul>{jokeElements}</ul>
+                                <ul>{SpeakerListDetails}</ul>
                             </div>
                         </>
                     </div>

@@ -9,7 +9,7 @@ import xLogo from"../assets/X.png"
 
 export default function NavTry(){
     return (
-        <nav className="bg-[#180037] p-5 flex flex-col h-full sidebar">
+        <nav className="bg-[#180037] p-5 flex fixed flex-col h-full sidebar">
             <div className="logo text-center">
                 <h1 className="text-2xl font-bold">SOLITARY</h1>
             </div>
@@ -24,7 +24,7 @@ export default function NavTry(){
             <div className="border-t-2 border-white mt-1"></div>
             <div className="footer text-left">
                 <p className="text-sm text-gray-500 leading-5 mb-5">Solitary Inc.<br />About Us<br />All Rights Reserved<br />2024</p>
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 mt-3">
                     <a href="#" className="hover:scale-110 transform transition-transform duration-300">
                         <img src={facebookLogo} alt="Facebook" className="w-6 h-6" />
                     </a>

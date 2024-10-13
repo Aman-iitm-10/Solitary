@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/LandingPageNavBar';
 import Footer from '../components/Footer';
 import HousesCard from '../components/HousesCard';
 import { getAllHouse } from '../services/operations/houseAPI';
