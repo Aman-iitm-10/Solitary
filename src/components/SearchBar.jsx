@@ -9,7 +9,7 @@ import xLogo from"../assets/X.png"
 
 export default function SearchBar(){
     return (
-        <div className="absolute top-5 left-1/2 transform -translate-x-1/2 flex items-center">
+        <div className="absolute top-5 left-1/2 ml-[10vw] transform -translate-x-1/2 flex items-center">
                     <button className="bg-[#6600ff] p-1 rounded-l flex items-center justify-center">
                         <img src={searchLogo} alt="Imgage not found" style={{width: "32px", height: "32px", minWidth:"32px"}}/>
                     </button>

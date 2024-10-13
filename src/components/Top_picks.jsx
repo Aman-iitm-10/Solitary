@@ -5,7 +5,7 @@ export default function Cards(){
   return (
     <div className="container">
       <div className="heading3 h3">
-        Tp picks
+        Top picks
       </div>
       <div className='row' style={{overflow : 'hidden'}}>
         <div className="container h-slider col-12" style={{display : 'flex', margin : '1.5%'}}>

@@ -1,9 +1,7 @@
 import FeaturedEvents from '../components/FeaturedEvents'
-import LeftNav from '../components/LeftNav'
-import Nav from '../components/Nav'
 import FeaturedEventsFullPage from '../components/FeaturedEventsFullPage'
 import SearchBar from '../components/SearchBar'
-import NavTry from '../components/NavTry'
+import NavTry from '../components/SideNavbar'
 
 import Avatar from"../assets/Avater.png"
 import GoogleLogo from"../assets/Social Icons.png"
@@ -14,7 +12,7 @@ import linkedInLogo from"../assets/linkedIn.png"
 import xLogo from"../assets/X.png"
 
 import RegConfirmation from '../components/RegConfirmation'
-import Cards from '../components/n';
+import Cards from '../components/Top_picks';
 
 import parse from 'html-react-parser';
 

@@ -59,10 +59,27 @@
     }
 }
 
+@keyframes spinAndResize {
+    0% {
+      transform: rotate(0deg) scale(0);
+    }
+    50% {
+      transform: rotate(360deg) scale(1.5); /* Spin and grow */
+    }
+    100% {
+      transform: rotate(360deg) scale(1); /* End rotation and return to original size */
+    }
+  }
+  
+  .avatar {
+    animation: spinAndResize 2s ease-in-out forwards; /* Spin animation for 2 seconds */
+  }
+  
+/* 
 
 .avatar {
     animation: slideInLeft 1s forwards;
-}
+} */
 
 .google-login-button {
     animation: slideInBottom 1s forwards;

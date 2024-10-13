@@ -1,5 +1,5 @@
 
-import Cards from './n.jsx';
+import Cards from './Top_picks.jsx';
 
 
 import React, { useState } from 'react';
