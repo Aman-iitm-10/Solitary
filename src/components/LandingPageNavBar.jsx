@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './NavBar.css'; // Import the CSS file
 
 import Logo from '../assets/Logo.jpeg';
 import { Link } from 'react-router-dom';
 import Hamburger from '../assets/hamburger.svg';
-import Notification from '../assets/notification.svg';
+
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,9 +36,6 @@ const NavBar = () => {
                     </Link>
 
                     <div className="hidden md:flex font-dm-sans text-base gap-9 font-medium" >
-                        <Link to={'/about'} >
-                            <div id='nav-item'> About Us</div>
-                        </Link>
                         <Link to={'/events'}>
                             <div id='nav-item'>Events</div>
                         </Link>

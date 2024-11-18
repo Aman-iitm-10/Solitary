@@ -1,4 +1,3 @@
-import React from 'react';
 import Sm_card_placeholder from '../assets/SM-card-placeholder.jpeg';
 
 const SocialMediaCard = ({ image, title, description, date }) => {

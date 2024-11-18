@@ -1,5 +1,3 @@
-import React from 'react';
-// import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import placeholder from '../assets/placeholder-user.webp';
 import { FiLinkedin, FiGithub, FiInstagram, FiTwitter } from 'react-icons/fi';
@@ -22,7 +20,6 @@ const OurTeam = () => {
     }, []);
     return (
         <div className="min-h-screen">
-            <NavBar></NavBar>
             <div className="opacity-90 bg-gradient-to-br from-cover-overlay-1 to-cover-overlay-2 w-full h-[5.5rem]"></div>
             <div className=" bg-home-bg h-full w-full pt-[10rem] pb-[10rem]">
                 <div className="text-white text-4xl sm:text-6xl font-bold text-center">
