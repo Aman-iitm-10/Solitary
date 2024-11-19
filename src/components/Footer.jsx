@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from '../assets/Logo.jpeg';
 import Instagram_logo from '../assets/instagram.svg';
 import Youtube_logo from '../assets/youtube.svg';
@@ -8,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="bg-neutral-600 w-full py-20">
-            <div className="container mx-auto pb-10">
+        <div > {/* classname - bg-neutral-600 w-full py-10 */}
+            <div className="container"> {/* mx-auto pb-10*/}
                 <div className="flex lg:justify-between lg:items-start items-center justify-between">
-                    <div className="flex flex-col gap-5 w-full items-center mb-9 lg:items-center">
+                    <div className="flex flex-col gap-4 w-full items-center lg:items-center"> {/* mb-5 */}
                         <div className="flex items-center gap-5">
                             <div>
                                 <img

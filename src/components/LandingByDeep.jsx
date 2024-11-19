@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import CharacterImg from '../assets/Component 3.png';
 import './styles.css'; // Assuming you store your CSS here
+import AboutUs from '../pages/AboutUs'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -98,6 +99,7 @@ const SolitaryMaximizing = () => {
       </div>
         
       <a href="#" className="arg">Skip to the main content</a>
+      <AboutUs/>
     </div>
   );
 };

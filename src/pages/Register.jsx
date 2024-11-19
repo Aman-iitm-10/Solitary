@@ -1,20 +1,13 @@
 import Avatar from"../assets/Avater.png";
 import GoogleLogo from"../assets/Social Icons.png";
 import './style_register.css'; 
-import BackgroundImage from "../assets/Solitary(3) 1.png"; // Replace with your image path
 
 const RegisterPage = () => {
     return (
-        <div className="flex h-screen bg-[#2c1055] text-white"
-            style={{ 
-                backgroundImage: `url(${BackgroundImage})`,  // Background image
-                backgroundSize: 'cover',                     // Make the image cover the entire div
-                backgroundPosition: 'center'                 // Center the image
-            }}
-        >
+        <div className="flex h-screen  text-white">
 
             {/* Main content */}
-            <div className="flex flex-col flex-grow ml-[250px] justify-center items-center p-4">
+            <div className="flex flex-col flex-grow justify-center items-center p-4">
 
                 {/* Avatar and Login Section */}
                 <div className="login-section flex flex-col items-center justify-center w-full">
