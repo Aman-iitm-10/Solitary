@@ -8,7 +8,7 @@ const AboutUs = () => {
 
     return (
         <div>
-            <div className=" h-fit w-full p-[10rem] text-2xl">
+            <div className=" mt-20 h-fit w-full p-[10rem] text-2xl">
                 <p className="text-white text-4xl sm:text-6xl font-bold text-center">
                     Welcome to Solitary: The Standalone Community
                 </p>

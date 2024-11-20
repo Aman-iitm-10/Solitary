@@ -1,219 +1,228 @@
-.expand{
-  height: fit-content;
+.expand {
+    height: fit-content;
 }
-.RegisterContainer{
-  margin-top:2%;
-  border-style: solid;
-  border: grey 2px;
-  border-radius: 24px;
-  border-color:azure;
-  background-color: #250E46;
-  box-shadow: rgba(182, 182, 209, 0.25) 0px 50px 100px -90px, rgba(155, 155, 155, 0.3) 0px 30px 60px -30px, rgba(182, 182, 209, 0.25) 0px 0px 0px -20px;;
-}
-
-.label{
-  font-family: Georgia;
-  font-style: normal;
-  font-size: 20px;
-  color:#F0FFFF;
-  padding-bottom: 6px;
-  font-stretch: normal;
+.RegisterContainer {
+    margin-top: 2%;
+    border-style: solid;
+    border: grey 2px;
+    border-radius: 24px;
+    border-color: azure;
+    background-color: #250e46;
+    box-shadow:
+        rgba(182, 182, 209, 0.25) 0px 50px 100px -90px,
+        rgba(155, 155, 155, 0.3) 0px 30px 60px -30px,
+        rgba(182, 182, 209, 0.25) 0px 0px 0px -20px;
 }
 
-.register-button{
-  border-color: rgb(166, 103, 220);
-  color:rgb(182, 109, 249);
-}
-.register-button:hover{
-  background-color: rgb(166, 103, 220);
-}
-
-.loopinfoStyle{
-  font-family: Georgia;    
-  color: rgb(208, 208, 208);
-  padding-left: 25px;
-  font-size: 15px;
-  letter-spacing: 0.06em;
+.label {
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 20px;
+    color: #f0ffff;
+    padding-bottom: 6px;
+    font-stretch: normal;
 }
 
-.loopinfo ul li{list-style-type: disc;}
-.loopinfo ul li::marker{color:rgb(165, 13, 176) ;}
-
-.details{
-font-family: Georgia;
-font-style: normal;
-font-size: 18px;
-color:#F0FFFF;
+.register-button {
+    border-color: rgb(166, 103, 220);
+    color: rgb(182, 109, 249);
 }
-.info{
-  font-family: Georgia;
-  font-style: normal;
-  font-size: 19px;
-  color:#F0FFFF;
+.register-button:hover {
+    background-color: rgb(166, 103, 220);
 }
 
-.title{
-  font-family: Georgia;
-  font-size: 28px;
-  color: rgb(236, 255, 255);
-  letter-spacing: 0.06em;
-  font-style: oblique;
-}
-.description{
-  font-family: Georgia;
-  font-size: medium;
-  color: #F0FFFF;
-}
-.congrats{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 30px;
-  font-style: bold;
-  font-weight: 545;
-  letter-spacing: 0.09rem;
-  color:rgb(240, 236, 236);
-}
-.Regimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.loopinfoStyle {
+    font-family: Georgia;
+    color: #e6e3e8;
+    font-size: 15px;
+    letter-spacing: 0.06em;
 }
 
-.expandevents:hover{
-  height: 500px;
+.loopinfoStyle ul li {
+    list-style-type: disc;
+}
+.loopinfoStyle ul li::marker {
+    color: rgb(165, 13, 176);
 }
 
-.expandevents{
-  overflow: hidden;
-  transition: 1.5s;
-  transition: height 0.5s;
+.details {
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 18px;
+    color: #e6e3e8;
 }
-.h-slider > div{
-  margin-right: 5%;
+.info {
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 19px;
+    color: #e6e3e8;
+}
+
+.title {
+    font-family: Georgia;
+    font-size: 28px;
+    color: rgb(229, 186, 255);
+    letter-spacing: 0.06em;
+    font-style: oblique;
+}
+.description {
+    font-family: Georgia;
+    font-size: large;
+    color: #e6e3e8;
+}
+.congrats {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 545;
+    letter-spacing: 0.09rem;
+    color: rgb(110, 90, 128);
+}
+.Regimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expandevents:hover {
+    height: 500px;
+}
+
+.expandevents {
+    overflow: hidden;
+    transition: 1.5s;
+    transition: height 0.5s;
+}
+.h-slider > div {
+    margin-right: 5%;
 }
 .h-slider {
-  overflow-x: scroll;
-  background: none;
+    overflow-x: scroll;
+    background: none;
 }
 
 .top-picks-card {
-  background-color: none;
-  color: #ceb9e2;
-  margin-bottom: 1.25%;
+    background-color: none;
+    color: #ceb9e2;
+    margin-bottom: 1.25%;
 }
 
-.top-picks-card-right{
-  padding-left: 5%;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.top-picks-card-right {
+    padding-left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.regConfMessage{
-  letter-spacing: 0.08rem;
-  font-family:'Courier New';
+.regConfMessage {
+    letter-spacing: 0.08rem;
+    font-family: 'Courier New';
 }
 
 .filter-button {
-  position: fixed;
-  right: 1rem;
-  top: 1rem;
-  z-index: 10;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 10;
 }
 
-
 .filter-section {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100vh;
-  background-color: black;
-  transform: translateX(100%);
-  transition: transform 0.5s ease; 
-  z-index: 9;
-  overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+    z-index: 9;
+    overflow: hidden;
 }
 
 .filter-section.slide-in {
-  transform: translateX(0); 
+    transform: translateX(0);
 }
 
 .filter-section.slide-out {
-  transform: translateX(100%); 
+    transform: translateX(100%);
 }
 
 .filter-category {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .filter-item {
-  padding: 9px;
-  border-bottom: 1px solid white;
-  font-size: 1.2rem;
-  cursor: pointer;
+    padding: 9px;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .filter-item:hover {
-  /* background-color: purple; */
+    /* background-color: purple; */
 }
 .dropdown-content {
-  /* background-color: rgba(73, 16, 139, 0.8); */
-  padding: 10px;
-  border-radius: 5px;
-  opacity: 0; /* Start hidden */
-  transform: translateY(-10px); /* Start slightly above */
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Fade and fall effect */
-  display: flex;
-  flex-direction: column;
+    /* background-color: rgba(73, 16, 139, 0.8); */
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0; /* Start hidden */
+    transform: translateY(-10px); /* Start slightly above */
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease; /* Fade and fall effect */
+    display: flex;
+    flex-direction: column;
 }
 
 .fade-in {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Move back to original position */
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move back to original position */
 }
 
-
 .fade-in {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* In original position */
-  display: block; /* Show it */
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* In original position */
+    display: block; /* Show it */
 }
 
 /* Additional styles for the filter button */
 .filter-button {
-  background-color: #49108b;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+    background-color: #49108b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .filter-button:hover {
-  background-color: #5e1e9e;
-  /* animation-duration: 0.3s; */
+    background-color: #5e1e9e;
+    /* animation-duration: 0.3s; */
 }
 
 /* Style for the filter section */
 .filter-section {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 200px;
-  height: 100vh;
-  background-color: black;
-  transform: translateX(100%);
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, background-color 0.2s ease; /* Add transition for background color */
-  z-index: 9;
-  overflow-y: auto; /* Add scrolling if content is too long */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+    transition:
+        transform 0.5s ease,
+        background-color 0.2s ease; /* Add transition for background color */
+    z-index: 9;
+    overflow-y: auto; /* Add scrolling if content is too long */
 }
-.filter-section:hover{
-  background-color: #0f031f;
-  /* animation-duration: 0.3s; */
+.filter-section:hover {
+    background-color: #0f031f;
+    /* animation-duration: 0.3s; */
 }
 
 .filter-section.slide-in {
-  transform: translateX(0); /* Slide in */
+    transform: translateX(0); /* Slide in */
 }
 
 .filter-section.slide-out {
-  transform: translateX(100%); /* Slide out */
+    transform: translateX(100%); /* Slide out */
 }

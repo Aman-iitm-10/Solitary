@@ -4,15 +4,21 @@ import Youtube_logo from '../assets/youtube.svg';
 import Linkedin_logo from '../assets/linkedin.svg';
 import CtaButton from './CtaButton';
 import { Link } from 'react-router-dom';
+import AboutUs from '../pages/AboutUs';
 
 const Footer = () => {
-    
-const CurrentYear = new Date().getFullYear();
+    const CurrentYear = new Date().getFullYear();
     return (
-        <div > {/* classname - bg-neutral-600 w-full py-10 */}
-            <div className="container"> {/* mx-auto pb-10*/}
+        <div>
+            {' '}
+            {/* classname - bg-neutral-600 w-full py-10 */}
+            <div className="container">
+                {' '}
+                {/* mx-auto pb-10*/}
                 <div className="flex lg:justify-between lg:items-start items-center justify-between">
-                    <div className="flex flex-col gap-4 w-full items-center lg:items-center"> {/* mb-5 */}
+                    <div className="flex flex-col gap-4 w-full items-center lg:items-center">
+                        {' '}
+                        {/* mb-5 */}
                         <div className="flex items-center gap-5">
                             <div>
                                 <img
@@ -25,12 +31,10 @@ const CurrentYear = new Date().getFullYear();
                                 Solitary
                             </div>
                         </div>
-
                         <div className="text-white text-m font-poppins leading-normal font-normal text-center lg:text-start">
                             At Solitary we want to maximize your experience by
                             optimizing your performance
                         </div>
-
                         <div className="flex gap-4">
                             <Link
                                 to={
@@ -72,7 +76,7 @@ const CurrentYear = new Date().getFullYear();
                     </div>
 
                     <div className="w-full justify-center gap-20 hidden lg:flex ">
-                        <div className="flex flex-col gap-3"> 
+                        <div className="flex flex-col gap-3">
                             {/* The below content are for full page view of the website */}
                             <div className="text-neutral-50 text-lg font-bold font-dm-sans capitalize">
                                 Plan Events
@@ -221,6 +225,3 @@ const CurrentYear = new Date().getFullYear();
 };
 
 export default Footer;
-
-    
-  

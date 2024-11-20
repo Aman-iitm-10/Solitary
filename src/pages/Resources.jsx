@@ -1,42 +1,42 @@
 import NavBar from '../components/LandingPageNavBar';
 import Footer from '../components/Footer';
-import HousesCard from '../components/HousesCard';
-import { getAllHouse } from '../services/operations/houseAPI';
+import SaCcards from '../components/SaCcards';
 import { useState, useEffect } from 'react';
+import { getAllClubs } from '../services/operations/clubAPI';
 
-const Houses = () => {
-    const [houses, sethouses] = useState([]);
+const Resources = () => {
+    const [clubs, setClubs] = useState([]);
 
     useEffect(() => {
-        const fetchHouses = async () => {
+        const fetchClubs = async () => {
             try {
-                const houseData = await getAllHouse();
-                sethouses(houseData);
+                const clubData = await getAllClubs();
+                setClubs(clubData);
             } catch (error) {
-                console.error('Error fetching houses:', error);
+                console.error('Error fetching clubs:', error);
             }
         };
-        fetchHouses();
+        fetchClubs();
     }, []);
-    // console.log(houses)
+    // console.log(clubs)
     return (
         <div>
             <NavBar></NavBar>
-            <div className="opacity-90  from-cover-overlay-1 to-cover-overlay-2 w-full h-[5.5rem]"></div>
-
+            <div className="opacity-90 from-cover-overlay-1 to-cover-overlay-2 w-full h-[5.5rem]"></div>
+            {/* bg-gradient-to-br */}
             <div className=" bg-home-bg h-fit w-full pt-[10rem]">
                 <div className="text-white text-4xl sm:text-6xl font-bold text-center">
-                    Houses
+                    Resources
                 </div>
                 <div className="w-11/12 flex gap-8 justify-center mx-auto mt-16 flex-wrap">
-                    {houses.map((item, i) => (
-                        <HousesCard
-                            image={'/gir-logo.png'}
+                    {clubs.map((item, i) => (
+                        <SaCcards
+                            image={item.image}
                             name={item.name}
                             description={item.description}
                             link={item.link}
                             key={i}
-                        ></HousesCard>
+                        ></SaCcards>
                     ))}
                 </div>
 
@@ -47,4 +47,4 @@ const Houses = () => {
     );
 };
 
-export default Houses;
+export default Resources;

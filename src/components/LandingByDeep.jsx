@@ -79,7 +79,7 @@ const SolitaryMaximizing = () => {
                     </div>
                 </div>
 
-                <div className=" info-section bg-home-bg mt-20">
+                <div className=" info-section bg-home-bg mt-40">
                     <div>
                         <div className="info-box1">
                             <h3>20+</h3>
@@ -105,9 +105,9 @@ const SolitaryMaximizing = () => {
                 </div>
             </div>
 
-            <a href="#" className="arg">
+            {/* <a href="#" className="arg">
                 Skip to the main content
-            </a>
+            </a> */}
             <AboutUs />
         </div>
     );

@@ -3,6 +3,8 @@ import placeholder from '../assets/placeholder-user.webp';
 import { FiLinkedin, FiGithub, FiInstagram, FiTwitter } from 'react-icons/fi';
 import { getAllTeamMembers } from '../services/operations/teamMembersAPI';
 import { useEffect, useState } from 'react';
+import NavBar from '../components/LandingPageNavBar';
+
 
 const OurTeam = () => {
     const [members, setMembers] = useState([]);
@@ -20,7 +22,9 @@ const OurTeam = () => {
     }, []);
     return (
         <div className="min-h-screen">
-            <div className="opacity-90 bg-gradient-to-br from-cover-overlay-1 to-cover-overlay-2 w-full h-[5.5rem]"></div>
+            <NavBar></NavBar>
+            <div className="opacity-90  from-cover-overlay-1 to-cover-overlay-2 w-full h-[5.5rem]"></div>
+            {/* bg-gradient-to-br */}
             <div className=" bg-home-bg h-full w-full pt-[10rem] pb-[10rem]">
                 <div className="text-white text-4xl sm:text-6xl font-bold text-center">
                     Technical Team
