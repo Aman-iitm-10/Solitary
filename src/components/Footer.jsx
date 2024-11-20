@@ -6,6 +6,8 @@ import CtaButton from './CtaButton';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    
+const CurrentYear = new Date().getFullYear();
     return (
         <div > {/* classname - bg-neutral-600 w-full py-10 */}
             <div className="container"> {/* mx-auto pb-10*/}
@@ -16,7 +18,7 @@ const Footer = () => {
                                 <img
                                     src={Logo}
                                     alt=""
-                                    className="w-20 rounded-full"
+                                    className="w-14 rounded-full"
                                 />
                             </div>
                             <div className="text-neutral-50 font-poppins text-3xl">
@@ -24,7 +26,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="text-white text-lg font-poppins leading-normal font-normal text-center lg:text-start">
+                        <div className="text-white text-m font-poppins leading-normal font-normal text-center lg:text-start">
                             At Solitary we want to maximize your experience by
                             optimizing your performance
                         </div>
@@ -70,7 +72,8 @@ const Footer = () => {
                     </div>
 
                     <div className="w-full justify-center gap-20 hidden lg:flex ">
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-3"> 
+                            {/* The below content are for full page view of the website */}
                             <div className="text-neutral-50 text-lg font-bold font-dm-sans capitalize">
                                 Plan Events
                             </div>
@@ -89,7 +92,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-3">
                             <div className="text-neutral-50 text-lg font-bold font-dm-sans capitalize">
                                 Eventick
                             </div>
@@ -123,7 +126,7 @@ const Footer = () => {
                                 name=""
                                 id=""
                                 placeholder="Enter your email"
-                                className="w-full hidden text-md lg:block bg-neutral-50 rounded-[3rem] h-[4rem] px-7 outline-none"
+                                className="w-full hidden text-md lg:block bg-neutral-50 rounded-[3rem] h-[3rem] px-7 outline-none"
                             />
                             <div className="justify-center lg:absolute lg:right-1 lg:top-1">
                                 <CtaButton>
@@ -143,6 +146,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center text-xs md:text-base md:min-w-[410px] w-full gap-5 my-9 lg:hidden">
+                    {/* the below content is for if the screen is small */}
                     <div className="text-neutral-50 text-lg font-bold font-dm-sans capitalize">
                         Stay in the Loop
                     </div>
@@ -158,7 +162,7 @@ const Footer = () => {
                             name=""
                             id=""
                             placeholder="Enter your email"
-                            className="w-full text-md bg-neutral-50 rounded-[3rem] h-[4rem] px-5 outline-none"
+                            className="w-full text-md bg-neutral-50 rounded-[3rem] h-[3rem] px-7 outline-none"
                         />
                         <div className="justify-center absolute right-1 top-1">
                             <CtaButton>
@@ -208,8 +212,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center bottom-1 text-white text-sm font-normal font-poppins w-full leading-snug pb-4 -mb-20 mt-20">
-                    Copyright © 2023 Solitary Team
+                <div className="text-center bottom-1 text-white text-sm font-normal font-poppins w-full leading-snug pb-4 -mb-20 mt-10">
+                    Copyright © {CurrentYear} Solitary Team
                 </div>
             </div>
         </div>
@@ -217,3 +221,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+    
+  
