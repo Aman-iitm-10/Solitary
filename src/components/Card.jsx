@@ -1,7 +1,10 @@
 import React, { useContext, useState } from 'react';
 import card_placholder from '../assets/card-placeholder.png';
 import './CustomScrollbar.css';
-import { showEventDetailsContext, selectedEventContext } from '../context/context';
+import {
+    showEventDetailsContext,
+    selectedEventContext,
+} from '../context/context';
 const Card = (props) => {
     // console.log(data)
     const setShowEventDetails = useContext(showEventDetailsContext);

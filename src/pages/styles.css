@@ -1,16 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 10px;
-  padding: 0;
-  background-color:#1a202c;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10px;
+    padding: 0;
+    background-color: #1a202c;
 }
 
 h1 {
-  color: #fff;
-  text-align: center;
-  margin-top: 30px;
-  font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
 }
 /*
 p {
@@ -21,12 +21,12 @@ p {
 }
 */
 h2 {
-  color: #fff;
-  cursor: pointer;
-  margin-top: 30px;
-  font-size: 30px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
 }
 /*
 h2::after {
@@ -38,40 +38,39 @@ h2.open::after {
 }
 */
 .foldable-content {
-  display: none;
-  margin: 0 20px;
-  padding: 10px;
+    display: none;
+    margin: 0 20px;
+    padding: 10px;
 }
 
 .foldable-content img {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .foldable-content.open {
-  display: block;
+    display: block;
 }
 
 li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 b {
-  text-align: center;
-  background-color: #61197b;
-  color:white;
-  padding: 10px 20px;
-  border-radius: 20px;
-  display: block;
-  margin: 30px 10px;
+    text-align: center;
+    background-color: #61197b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+    margin: 30px 10px;
 }
 
-
 b:hover {
-  background-color: #8002ba;
-  padding: 10px 20px;
-  border-radius: 20px;
-  display: block;
+    background-color: #8002ba;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
 }

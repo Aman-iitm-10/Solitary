@@ -40,7 +40,7 @@ const Home = () => {
             return false;
         });
     };
-    
+
     const filteredEvents = filterEvents(selectedCategory);
 
     useEffect(() => {
@@ -55,7 +55,6 @@ const Home = () => {
         fetchEvents();
     }, []);
 
-
     return (
         <showEventDetailsContext.Provider value={setShowEventDetails}>
             <selectedEventContext.Provider value={setSelectedEvent}>
@@ -65,8 +64,8 @@ const Home = () => {
                     <div>
                         <NavBar></NavBar>
                         <Cover></Cover>
-                        
-                        <RegisterPage/>
+
+                        <RegisterPage />
                         <Footer></Footer>
                     </div>
                 </categoryContext.Provider>

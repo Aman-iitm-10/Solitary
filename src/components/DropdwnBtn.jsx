@@ -11,8 +11,12 @@ function DropdwnBtn({ children, data }) {
         setIsOpen(false);
         setCategory((prev) => ({
             ...prev,
-            eventType: item.type === 'eventType' ? item.option : category.eventType,
-            organization: item.type === 'organization' ? item.option : category.organization,
+            eventType:
+                item.type === 'eventType' ? item.option : category.eventType,
+            organization:
+                item.type === 'organization'
+                    ? item.option
+                    : category.organization,
             date: item.type === 'date' ? item.option : category.date,
         }));
     };

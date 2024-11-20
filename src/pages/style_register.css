@@ -15,18 +15,18 @@
 
 @keyframes fadeInFromBottom {
     0% {
-      transform: translateY(50px);
-      opacity: 0;
+        transform: translateY(50px);
+        opacity: 0;
     }
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  
-  .animate-fadeInFromBottom {
+}
+
+.animate-fadeInFromBottom {
     animation: fadeInFromBottom 1s ease-out forwards;
-  }
+}
 
 @keyframes slideInLeft {
     from {
@@ -61,20 +61,20 @@
 
 @keyframes spinAndResize {
     0% {
-      transform: rotate(0deg) scale(0);
+        transform: rotate(0deg) scale(0);
     }
     50% {
-      transform: rotate(360deg) scale(1.5); /* Spin and grow */
+        transform: rotate(360deg) scale(1.5); /* Spin and grow */
     }
     100% {
-      transform: rotate(360deg) scale(1); /* End rotation and return to original size */
+        transform: rotate(360deg) scale(1); /* End rotation and return to original size */
     }
-  }
-  
-  .avatar {
+}
+
+.avatar {
     animation: spinAndResize 2s ease-in-out forwards; /* Spin animation for 2 seconds */
-  }
-  
+}
+
 /* 
 
 .avatar {
@@ -91,10 +91,9 @@
 
 .nav-list li {
     animation: fadeOut 1s forwards;
-    animation-delay: 2s; 
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
-
 
 .nav-list li:hover {
     opacity: 1;
@@ -180,14 +179,13 @@
 /* Apply the animations to the respective classes */
 /* .sidebar {
     animation: slideInLeftFade 1s forwards; /* Sidebar slide in from left with fade */
- /* */
+/* */
 
 /* .nav-list li {
     animation: fadeIn 1s backwards; /* Fade out effect */
-    /* animation-delay: 2s; Start fading out after 2 seconds */
-    /* opacity: 1; Initial opacity */
-    /* animation-fill-mode: backwards; */
-
+/* animation-delay: 2s; Start fading out after 2 seconds */
+/* opacity: 1; Initial opacity */
+/* animation-fill-mode: backwards; */
 
 /* Ensure items remain visible until fade out */
 .nav-list li:hover {

@@ -5,7 +5,6 @@ import { getAllTeamMembers } from '../services/operations/teamMembersAPI';
 import { useEffect, useState } from 'react';
 import NavBar from '../components/LandingPageNavBar';
 
-
 const OurTeam = () => {
     const [members, setMembers] = useState([]);
 
